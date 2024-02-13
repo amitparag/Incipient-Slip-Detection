@@ -1,0 +1,36 @@
+/* Existing styles */
+
+.feedback-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.feedback-container .video-wrapper {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.feedback-container .video-wrapper h3 {
+    margin-top: 0;
+}
+
+/* Additional styles for Slip videos */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.video-container .video-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.video-container .video-wrapper h3 {
+    margin-top: 0;
+}
