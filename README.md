@@ -32,7 +32,7 @@ We define "wriggle" as a sequence of motions that involve:
 
 Two examples are shown below:
 
-- ![Example 1](./docs/coffee_mug.mp4)
+- [Example 1](./docs/coffee_mug.mp4)
 - ![Example 2](./docs/rubicks_cube.mp4)
 
 The occurrence of slip is usually characterized by the properties of the object in question such as its weight, elasticity, orientation of grip.
