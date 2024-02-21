@@ -142,8 +142,7 @@ For training, the data folder needs to be arranged like so:
 - `heads`: 2,
 - `mlp_dim`: 2
 
-Training a bigger model on 16 or 32 Gb RAM leads to the script getting automatically killed. So, if you want to try it, make sure you have access to compute clusters and adapt the code for GPU. Should be fairly straightforward. This architecture took 17.35 hours to train for 250 epochs.
-
+Training a bigger model on 16 or 32 Gb RAM leads to the script getting automatically killed. So, if you want to try it, make sure you have access to compute clusters and adapt the code for GPU. Should be fairly straightforward. 
 ## Certain problems you may face
 
 1. **Installing real-time kernel**: See requirements below.
