@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pandacontroller/DEVEL/franka-servo/servofranka/frankaShake.cpp
+iostream
+-
+visp3/robot/vpRobotFranka.h
+-
+visp3/core/vpIoTools.h
+-
+

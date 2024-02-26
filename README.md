@@ -13,6 +13,8 @@ An important aspect of robotic grasping is the ability to detect incipient slip 
 
 The aim of the experiments is to learn the difference between slip and wriggle (and predict the onset of slip) through videos by training a Video-Vision Transformer model.
 
+We use the Franka Emika research 2 robots and libfranka to move the robots. See [notes](./notes/readme.md) on installing the real time kernel and libfranka.
+
 ![Video Vision Transformer Architecture](./docs/architecture.jpg)
 
 Video Vision Transformers were initially proposed in this [paper](https://arxiv.org/abs/2103.15691).
@@ -162,7 +164,8 @@ Numpy, preferably 1.20.0. Higher versions have changed numpy.bool to bool. Might
 
 See [notes](https://github.com/amitparag/Attention-Classification/tree/main/notes) for instructions on installing real-time kernel and libfranka.
 
-## Acknowledgements
+## License
 
+This project is licensed under the BSD 2-Clause Simplified License.
 
 

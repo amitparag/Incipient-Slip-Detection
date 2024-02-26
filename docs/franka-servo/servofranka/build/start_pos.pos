@@ -1,0 +1,6 @@
+#PANDA - Joint position file
+#
+# R: q1 q2 q3 q4 q5 q6 q7
+# with joint positions q1 to q7 expressed in degrees
+#
+R: -4.386434 24.924971 4.663020 -140.660235 13.877253 186.365377 30.087750

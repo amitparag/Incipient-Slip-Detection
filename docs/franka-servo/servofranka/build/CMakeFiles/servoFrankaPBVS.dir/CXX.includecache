@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pandacontroller/DEVEL/franka-servo/servofranka/servoFrankaPBVS.cpp
+iostream
+-
+visp3/core/vpCameraParameters.h
+-
+visp3/gui/vpDisplayGDI.h
+-
+visp3/gui/vpDisplayX.h
+-
+visp3/io/vpImageIo.h
+-
+visp3/sensor/vpRealSense2.h
+-
+visp3/robot/vpRobotFranka.h
+-
+visp3/detection/vpDetectorAprilTag.h
+-
+visp3/visual_features/vpFeatureThetaU.h
+-
+visp3/visual_features/vpFeatureTranslation.h
+-
+visp3/vs/vpServo.h
+-
+visp3/vs/vpServoDisplay.h
+-
+visp3/gui/vpPlot.h
+-
+
