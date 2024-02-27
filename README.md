@@ -37,7 +37,7 @@ Two examples are shown below:
 
 The occurrence of slip is usually characterized by the properties of the object in question such as its weight, elasticity, orientation of grip.
 
-An examples of slip are shown below:
+An example of slip is shown below:
 
 ![Slip Example 1](./docs/gifs/slip.gif)
 
