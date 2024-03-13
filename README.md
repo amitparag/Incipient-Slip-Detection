@@ -162,7 +162,7 @@ The usual suspects - torch, pytorchvideo, opencv.
 
 Numpy, preferably 1.20.0. Higher versions have changed numpy.bool to bool. Might lead to clashes.
 
-See [notes](https://github.com/amitparag/Attention-Classification/tree/main/notes) for instructions on installing real-time kernel and libfranka.
+See [notes](https://github.com/amitparag/Incipient-Slip-Detection/tree/main/notes) for instructions on installing real-time kernel and libfranka.
 
 ## License
 
