@@ -11,7 +11,7 @@
 An important aspect of robotic grasping is the ability to detect incipient slip based on real time information through tactile sensors. In this paper, we propose to use Video Vision Transformers to detect the onset of slip in grasping scenarios. The dynamic nature of slip makes Video Vision Transformers a suitable candidate to capture temporal correlations with relatively fewer data. The training data is acquired through two Gelsight tactile sensors attached to the generic finger grippers of a  Panda Franka Emika robot arm that grasps, lifts and shakes $30$ daily objects. We evaluate the efficiency of the our approach to predict onset of slip on $10$ previously unseen objects and achieve a zero-shot mean prediction accuracy of 99\%. 
 
 
-The aim of the experiments is to learn the difference between slip and wriggle (and predict the onset of slip) through videos by training a Video-Vision Transformer model.
+The aim of the experiments is to learn the difference between slip and wiggle (and predict the onset of slip) through videos by training a Video-Vision Transformer model.
 
 We use the Franka Emika research 2 robots and libfranka to move the robots. See [notes](./notes/readme.md) on installing the real time kernel and libfranka.
 
@@ -23,7 +23,7 @@ We use the first variant - spatial transformer followed by a temporal one - in o
 
 The training dataset was collected by performing the wriggling motion.
 
-We define "wriggle" as a sequence of motions that involve:
+We define "wiggle" as a sequence of motions that involve:
 
 - **Perpendicular Shake**: This type of shake involves applying a perturbation perpendicular to the surface or direction of motion. It induces movement in a direction perpendicular to the end-effector's current orientation or path.
 - **Rotation Shake**: Rotation shake applies a perturbation that causes the end-effector to rotate around its axis. This rotation can be clockwise or counterclockwise, altering the orientation of the end-effector.
@@ -48,9 +48,9 @@ The resulting (slip) video (from one of the experiments) from the sensor attache
 - ![Slip Video 1](./docs/gifs/slip1.gif)
 - ![Slip Video 2](./docs/gifs/slip2.gif)
 
-An example of wriggle is:
+An example of wiggle is:
 
-- ![Wriggle Example](./docs/gifs/wriggle.gif)
+- ![wiggle Example](./docs/gifs/wiggle.gif)
 
 After the data has been collected, we augment the data by adding noise and swapping channels in each video.
 
@@ -79,7 +79,7 @@ For training, the data folder needs to be arranged like so:
       
              └── ...
        
-        └── wriggle/
+        └── wiggle/
          
             ├── video1.avi
       
@@ -98,7 +98,7 @@ For training, the data folder needs to be arranged like so:
       
              └── ...
        
-        └── wriggle/
+        └── wiggle/
          
             ├── video1.avi
       
@@ -118,7 +118,7 @@ For training, the data folder needs to be arranged like so:
       
              └── ...
        
-        └── wriggle/
+        └── wiggle/
          
             ├── video1.avi
       
