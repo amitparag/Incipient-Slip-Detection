@@ -4,7 +4,7 @@
 
 **Author**: [Amit Parag](https://scholar.google.com/citations?user=wsRIfL4AAAAJ&hl=en)
 
-**Instructor**: [Ekrem Misimi](https://www.sintef.no/en/all-employees/employee/ekrem.misimi/)
+// **Instructor**: [Ekrem Misimi](https://www.sintef.no/en/all-employees/employee/ekrem.misimi/)
 
 ## Précis
 
