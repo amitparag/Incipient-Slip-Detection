@@ -28,7 +28,7 @@ The following dependencies should be sufficient:
 sudo apt-get install build-essential bc curl ca-certificates gnupg2 libssl-dev lsb-release libelf-dev bison flex dwarves zstd libncurses-dev
 ```
 
-## Downlaod and extract code 
+## Download and extract code 
 
 Download the kernel and patch from official repositories (unofficial ones seems to exist too if you need a version that is not in the mainstream, but we didn't try that).
 
